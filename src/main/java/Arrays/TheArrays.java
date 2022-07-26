@@ -13,7 +13,7 @@ public class TheArrays {
             System.out.print(color + " ");
         }
 
-        Arrays.stream(colors).forEach(System.out::println);
+        Arrays.stream(colors).forEach(System.out::println); //
 
 
 

@@ -26,6 +26,6 @@ public class WorkingWith2DArrays {
        }
        String result = output.toString();
 
-       return result;
+       return result; //
     }
 }
