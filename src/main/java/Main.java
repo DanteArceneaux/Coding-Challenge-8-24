@@ -1,21 +1,16 @@
-import java.util.Arrays;
+import java.util.*;
+import java.lang.reflect.*;
+import java.util.stream.IntStream;
+import java.util.stream.LongStream;
+import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println(reverseSentence("true is prophecy The"));
-    }
+ int number  = 45;
 
-    static String reverseSentence(String string){
-        String[] split = string.split(" ");
-        String reverse = " ";
-
-        for (int i = split.length -1 ; i >=0 ; i--) {
-            reverse += split[i] + " ";
-
-        }
-        return reverse;
+        System.out.println(number.);
     }
-    }
+}
 
